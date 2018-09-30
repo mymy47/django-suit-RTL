@@ -14,6 +14,7 @@ Install
 =======
 
 * 1- Install Django Suit v2-dev using pip or easy_install:
+`npm install ea.css`
 `pip install https://github.com/AhmadiEhsan/django-suit-RTL`
 
 * 2- Create SuitConfig class and add it to the `INSTALLED_APPS` before django.contrib.admin app:
