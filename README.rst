@@ -14,7 +14,12 @@ Install
 =======
 
 * 1- Install Django Suit v2-dev RTL using pip or easy_install:
+
 pip install https://github.com/AhmadiEhsan/django-suit-RTL
+
+::
+
+    reST -> Sphinx -> HTML
 
 
 License
