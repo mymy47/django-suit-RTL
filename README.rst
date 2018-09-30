@@ -29,6 +29,13 @@ Install
     class SuitConfig(DjangoSuitConfig):
         layout = 'horizontal'
 
+::
+    INSTALLED_APPS = (
+        ...
+        'my_project_app.apps.SuitConfig',
+        'django.contrib.admin',
+    )
+
 
 License
 =======
