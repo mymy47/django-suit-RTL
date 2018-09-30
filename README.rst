@@ -18,7 +18,6 @@ Install
 pip install https://github.com/AhmadiEhsan/django-suit-RTL
 
 ::
-
     reST -> Sphinx -> HTML
 
 
