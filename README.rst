@@ -1,5 +1,5 @@
 ===========
-Django Suit RTL
+Django Suit v2 RTL
 ===========
 
 **Modern theme for Django admin interface**.
@@ -7,8 +7,26 @@ Django Suit RTL
 Django Suit is alternative theme/skin/extension for `Django <http://www.djangoproject.com>`_ administration interface.
 
 * Project home: http://djangosuit.com/
-* Live demo v1: http://djangosuit.com/admin/
-* Live demo v2.0 alpha 1: http://v2.djangosuit.com/admin/
+* Live demo v2.0 alpha 1 LTR: http://v2.djangosuit.com/admin/
+
+
+Install
+=======
+
+1- Install Django Suit v2-dev using pip or easy_install:
+`pip install https://github.com/AhmadiEhsan/django-suit-RTL`
+
+2- Create SuitConfig class and add it to the INSTALLED_APPS before django.contrib.admin app:
+`# my_project_app/apps.py
+from suit.apps import DjangoSuitConfig
+
+class SuitConfig(DjangoSuitConfig):
+    layout = 'horizontal'`
+`INSTALLED_APPS = (
+    ...
+    'my_project_app.apps.SuitConfig',
+    'django.contrib.admin',
+)`
 
 
 License
@@ -22,23 +40,8 @@ Docs & Support
 ==============
 
 * Documentation v2: http://django-suit.readthedocs.org/en/v2/
-* Documentation v1: http://django-suit.readthedocs.org/en/latest/
 * Support: http://djangosuit.com/support/
 * Follow `on Twitter <http://twitter.com/DjangoSuit>`_ to get latest news
-
-
-Changelog
-=========
-
-**Note:** Django Suit v2.0 is in active development and not yet ready for production use.
-
-Read more here: Todo: Add issue refernce
-
-
-Contributing
-============
-
-See `Contributing documentation <http://django-suit.readthedocs.org/en/v2/contribute.html>`_
 
 
 Build Status
