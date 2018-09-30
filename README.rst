@@ -29,6 +29,7 @@ Install
     class SuitConfig(DjangoSuitConfig):
         layout = 'horizontal'
 
+
 ::
     INSTALLED_APPS = (
         ...
