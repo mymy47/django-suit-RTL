@@ -8757,3 +8757,12 @@ body.change-form.suit_form_submit_on_right .edit-row > div.col-right {
 table#change-history thead > tr th {
     padding: 0.7rem 0.8rem !important;
 }
+
+/* remove footer */
+.footer {
+    display: none !important;
+}
+
+body.suit_layout_horizontal, body.login {
+    margin-bottom: 0 !important;
+}
