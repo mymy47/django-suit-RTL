@@ -31,19 +31,15 @@ Install
 
 ::
 
-    # my_project_app/apps.py
-    from suit.apps import DjangoSuitConfig
-    
-    class SuitConfig(DjangoSuitConfig):
-        layout = 'horizontal'
-
-
-::
     INSTALLED_APPS = (
         ...
         'my_project_app.apps.SuitConfig',
         'django.contrib.admin',
     )
+
+
+::
+
 
 
 License
