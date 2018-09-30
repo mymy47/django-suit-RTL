@@ -15,10 +15,19 @@ Install
 
 * 1- Install Django Suit v2-dev RTL using pip or easy_install:
 
-pip install https://github.com/AhmadiEhsan/django-suit-RTL
+::
+
+    pip install https://github.com/AhmadiEhsan/django-suit-RTL
+
+* 2- Create SuitConfig class and add it to the INSTALLED_APPS before django.contrib.admin app:
 
 ::
-    reST -> Sphinx -> HTML
+
+    # my_project_app/apps.py
+    from suit.apps import DjangoSuitConfig
+    
+    class SuitConfig(DjangoSuitConfig):
+        layout = 'horizontal'
 
 
 License
