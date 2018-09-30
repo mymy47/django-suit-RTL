@@ -13,8 +13,8 @@ Django Suit is alternative theme/skin/extension for `Django <http://www.djangopr
 Install
 =======
 
-* 1- Install Django Suit v2-dev using pip or easy_install::
-pip install https://github.com/AhmadiEhsan/django-suit-RTL
+1- Install Django Suit v2-dev using pip or easy_install::
+* pip install https://github.com/AhmadiEhsan/django-suit-RTL
 
 
 License
