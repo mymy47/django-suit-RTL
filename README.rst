@@ -48,7 +48,7 @@ License
 Docs & Support
 ==============
 
-* Documentation v2: http://django-suit.readthedocs.org/en/v2/
+* Documentation v2 LTR: http://django-suit.readthedocs.org/en/v2/
 * Support: http://djangosuit.com/support/
 * Follow `on Twitter <http://twitter.com/DjangoSuit>`_ to get latest news
 
