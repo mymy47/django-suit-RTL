@@ -1,5 +1,5 @@
 ===========
-Django Suit
+Django Suit RTL
 ===========
 
 **Modern theme for Django admin interface**.
