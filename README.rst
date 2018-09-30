@@ -38,10 +38,6 @@ Install
     )
 
 
-::
-
-
-
 License
 =======
 
