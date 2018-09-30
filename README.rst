@@ -76,5 +76,3 @@ Preview
 
 
 .. image:: http://s9.picofile.com/file/8338619776/django_suit_RTL_preview.png
-:alt: Django Suit Preview
-   :target: http://v2.djangosuit.com/admin/
