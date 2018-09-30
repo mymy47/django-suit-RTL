@@ -63,6 +63,6 @@ Preview
 =======
 
 
-.. image:: https://cloud.githubusercontent.com/assets/445304/12699480/3eee898e-c7c5-11e5-931c-ba1b0cabdecb.png
+.. image:: http://s9.picofile.com/file/8338619776/django_suit_RTL_preview.png
 :alt: Django Suit Preview
    :target: http://v2.djangosuit.com/admin/
