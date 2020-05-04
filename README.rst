@@ -17,7 +17,7 @@ Install
 
 ::
 
-    pip install -e git+https://github.com/AhmadiEhsan/django-suit-RTL#egg=django_suit
+    pip install -e git+https://github.com/mymy47/django-suit-RTL#egg=django_suit
 
 * 2- Create SuitConfig class and add it to the INSTALLED_APPS before django.contrib.admin app:
 
